@@ -1,0 +1,20 @@
+### Sway configuration: Input
+# Read `man sway-input`
+
+# Example configuration:
+#
+#   input "2:14:SynPS/2_Synaptics_TouchPad" {
+#       dwt enabled
+#       tap enabled
+#       natural_scroll enabled
+#       middle_emulation enabled
+#   }
+#
+# You can get the names of your inputs by running: swaymsg -t get_inputs
+# Read `man 5 sway-input` for more information about this section.
+input * accel_profile flat
+input 1267:12557:ASUE1407:00_04F3:310D_Touchpad accel_profile adaptive
+input 1267:12557:ASUE1407:00_04F3:310D_Touchpad pointer_accel -0.2
+input 1267:12557:ASUE1407:00_04F3:310D_Touchpad drag_lock enabled
+input 1267:12557:ASUE1407:00_04F3:310D_Touchpad tap enabled
+input * xkb_layout "us,pt"

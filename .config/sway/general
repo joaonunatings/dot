@@ -1,0 +1,13 @@
+### Sway configuration: General commands
+# Read `man 5 sway`
+
+# default_orientation horizontal|vertical|auto
+default_orientation auto
+
+# workspace_layout default|stacking|tabbed
+workspace_layout default
+
+# xwayland enable|disable|force
+# 	enable	- lazy Xwayland launch (launches on first X client)
+# 	force 	- launches Xwayland (useful on slow systems)
+xwayland enable
