@@ -1,0 +1,13 @@
+function config()
+  require("lualine").setup({
+    options = {
+      theme = "iceberg_dark"
+    }
+  })
+end
+
+return {
+  "nvim-lualine/lualine.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  config = config
+}
